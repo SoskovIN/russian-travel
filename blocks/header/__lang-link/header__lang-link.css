@@ -1,0 +1,19 @@
+.header__lang-link {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: opacity 2s;
+  cursor: url(../../../vendor/pointer/Pointer.svg), pointer;
+}
+
+@media (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

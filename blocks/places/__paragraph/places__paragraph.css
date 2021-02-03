@@ -1,0 +1,13 @@
+.places__paragraph {
+  margin: 0 auto;
+}
+
+.places__paragraph:not(:first-of-type) {
+  margin-top: 26px;
+}
+
+@media (max-width: 1023px) {
+  .places__paragraph:not(:first-of-type) {
+    margin-top: 25px;
+  }
+}

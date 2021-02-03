@@ -1,0 +1,25 @@
+.cover__overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 740px;
+  text-align: center;
+  background: rgba(42, 44, 47, 0.3);     /* соответствует - #2A2C2F + opacity(0.3) */
+}
+
+.cover__overlay:hover {
+  cursor: url(../../../vendor/pointer/Pointer.svg), pointer;
+  background: rgba(42, 44, 47, 0.7);
+  transition: background 1s;
+}
+
+@media (max-width: 1279px) {
+  .cover__overlay {
+    height: calc(100vw / 1.6);
+    min-height: 0;
+  }
+}
+
+

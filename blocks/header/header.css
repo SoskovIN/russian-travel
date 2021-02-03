@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 auto;
+  width: calc(100% - 96px);
+  max-width: 1184px;
+}
+
+@media (max-width: 1023px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    width: calc(100% - 32px);
+  }
+}

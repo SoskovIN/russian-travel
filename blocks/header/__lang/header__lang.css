@@ -1,0 +1,7 @@
+.header__lang {
+  display: flex;
+  grid-gap: 0 18px;
+  text-decoration: none;
+}
+
+

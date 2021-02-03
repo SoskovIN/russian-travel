@@ -1,0 +1,31 @@
+.lead__subtitle {
+  margin: 32px 0 64px 0;
+  text-align: center;
+  white-space: pre-line;
+  font-size:30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+@media (max-width: 1279px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead__subtitle {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 424px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+
