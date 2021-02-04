@@ -1,5 +1,8 @@
+.link-hover {
+  transition: opacity 1s;
+}
+
 .link-hover:hover {
-  opacity: 0.8;
-  transition: opacity 2s;
+  opacity: 0.5;
   cursor: url(../../vendor/pointer/Pointer.svg), pointer;
 }

@@ -13,10 +13,14 @@
       <a target="_self" href="#" class="link-hover">
         <img class="header__logo" src="./images/header-logo.svg" alt="Логотип: Карта России">
       </a>
-      <div class="header__lang">
-        <a target="_self" translate="no" class="header__lang-link header__lang-link_active" href="#">Ru</a>
-        <a target="_self" translate="no" class="header__lang-link" href="#">En</a>
-      </div>
+      <ul class="header__lang">
+        <li>
+          <a target="_self" translate="no" class="header__lang-link header__lang-link_active" href="#">Ru</a>
+        </li>
+        <li>
+          <a target="_self" translate="no" class="header__lang-link" href="#">En</a>
+        </li>
+      </ul>
     </header>
 
     <main class="content">
@@ -27,6 +31,7 @@
         <p class="lead__subtitle">Настоящая страна не в выпусках
           новостей, а здесь.</p>
         <img src="images/lead-polka.jpg" alt="Девушка на полке в поезде" class="lead__image">
+        <!-- Не совсем понимаю: какие блоки тут желательно выделить в список, и зачем? -->
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
 
@@ -45,21 +50,19 @@
         </p>
         <ul class="intro__list">
           <li>
-            <a target="_blank" rel="noopener" class="intro__link link-hover" href="#">Часовых поясов 11</a>
+            Часовых поясов <span class="intro__list-number">11</span>
           </li>
           <li>
-            <a target="_blank" rel="noopener" class="intro__link link-hover" href="#">Объектов природного наследия
-            <span class="text-uppercase">юнеско 12</span></a>
+            Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span>
           </li>
           <li>
-            <a target="_blank" rel="noopener" class="intro__link link-hover" href="#">Объектов культурного наследия
-            <span class="text-uppercase">юнеско 16</span></a>
+            Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span>
           </li>
           <li>
-            <a target="_blank" rel="noopener" class="intro__link link-hover" href="#">Природных заповедников 105</a>
+            Природных заповедников <span class="intro__list-number">105</span>
           </li>
           <li>
-            <a target="_blank" rel="noopener" class="intro__link link-hover" href="#">Аэропортов 241</a>
+            Аэропортов <span class="intro__list-number">241</span>
           </li>
         </ul>
       </section>
@@ -83,7 +86,7 @@
         <div class="places__place">
             <h2 class="places__title">Куршская коса</h2>
             <div class="places__website">
-              <p class="places__url-heading text-uppercase" translate="no">url</p>
+              <p class="places__url-heading" translate="no">url</p>
               <a target="_blank" rel="noopener" href="http://park-kosa.ru"
                 class="places__link link-hover">park-kosa.ru</a>
             </div>
@@ -105,7 +108,7 @@
         <div class="places__place">
             <h2 class="places__title">Кольский</h2>
             <div class="places__website">
-              <p class="places__url-heading text-uppercase" translate="no">url</p>
+              <p class="places__url-heading" translate="no">url</p>
               <a target="_blank" rel="noopener" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                  class="places__link link-hover">National Geographic</a>
             </div>
@@ -127,7 +130,7 @@
         <div class="places__place">
           <h2 class="places__title">Алтай</h2>
           <div class="places__website">
-            <p class="places__url-heading text-uppercase" translate="no">url</p>
+            <p class="places__url-heading" translate="no">url</p>
             <a target="_blank" rel="noopener" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               class="places__link link-hover">Facebook</a>
           </div>
@@ -149,7 +152,7 @@
         <div class="places__place">
           <h2 class="places__title">Зимний Байкал</h2>
           <div class="places__website">
-            <p class="places__url-heading text-uppercase" translate="no">url</p>
+            <p class="places__url-heading" translate="no">url</p>
             <a target="_blank" rel="noopener" href="https://vk.com/baikalmile"
               class="places__link link-hover">https://vk.com/baikalmile</a>
           </div>
@@ -170,7 +173,7 @@
         <div class="places__place">
           <h2 class="places__title">Карелия</h2>
           <div class="places__website">
-            <p class="places__url-heading text-uppercase" translate="no">url</p>
+            <p class="places__url-heading" translate="no">url</p>
             <a target="_blank" rel="noopener" href="http://vodlozero.ru"
               class="places__link link-hover">http://vodlozero.ru/</a>
           </div>
@@ -189,14 +192,12 @@
       </section>
 
       <section class="cover">
-        <div class="cover__overlay">
-          <a target="_blank" rel="noopener" href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link link-hover">
+          <a target="_blank" rel="noopener" href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
             <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе —&nbsp;путешествие
+              от столицы до Байкала на электричках.
+            </p>
           </a>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе —&nbsp;путешествие
-            от столицы до Байкала на электричках.
-          </p>
-        </div>
       </section>
 
     </main>
